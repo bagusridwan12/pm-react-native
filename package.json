@@ -1,8 +1,10 @@
 {
-  "name": "expo-template-blank-typescript",
+  "name": "pmob-react-native",
   "description": "The Blank project template includes the minimum dependencies to run and an empty root component.",
-  "license": "0BSD",
-  "version": "57.0.32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jody-commits/pmob-react-native.git"
+  },
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
@@ -11,13 +13,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/ui": "~57.0.25",
     "expo": "~57.0.30",
+    "expo-constants": "~57.0.22",
+    "expo-linking": "~57.0.13",
+    "expo-router": "~57.0.28",
+    "expo-splash-screen": "~57.0.10",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
-    "react-native": "0.86.3"
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
-    "@types/react": "~19.2.2",
+    "@types/react": "~19.2.4",
+    "expo-doctor": "^1.21.5",
     "typescript": "~6.0.3"
   }
 }
